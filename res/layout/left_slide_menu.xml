@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#424542" >
+    
+    <RelativeLayout
+        android:id="@+id/left_slide_menu_layout_userinfo"
+        android:layout_width="fill_parent"
+    	android:layout_height="43dp">
+    	
+        <ImageView
+            android:id="@+id/left_slide_menu_user_img"
+            android:layout_width="38dp"
+    		android:layout_height="fill_parent"
+    		android:contentDescription="@string/app_name"
+    		android:src="@drawable/userimage"
+    		android:layout_alignParentLeft="true"
+    		android:layout_marginTop="5dp"
+    		android:layout_marginLeft="15dp"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+    		android:layout_height="fill_parent" 
+    		android:text="舞影凌风"
+    		android:layout_marginLeft="10dp"
+    		android:gravity="center_vertical"
+    		android:textColor="@color/white"
+    		android:layout_toRightOf="@+id/left_slide_menu_user_img"/>
+        
+        <ImageView
+            android:layout_width="20dp"
+    		android:layout_height="20dp"
+    		android:contentDescription="@string/app_name" 
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/mm_submenu_normal"
+            android:layout_centerVertical="true"/>        
+    </RelativeLayout>
+    
+ 	<LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_margin="8dp"
+    	android:orientation="vertical">
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#5A595A" 
+            />
+        
+        <ListView
+            android:id="@+id/left_slide_menu_usual_listview"
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:paddingLeft="5dp"
+        	android:paddingRight="5dp" />      
+    </LinearLayout>
+    
+
+</LinearLayout>

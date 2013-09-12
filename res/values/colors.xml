@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="txt_label_black">#ff2e3d47</color>
+    <color name="white">#ffffff</color>
+    
+    <color name="news_list_normal">#F7F7F7</color>
+    <color name="news_list_press">#BDBDC6</color>
+    
+     <color name="transparent">#00000000</color>
+</resources>

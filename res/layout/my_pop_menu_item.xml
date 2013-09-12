@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mypopmenu_textView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_pop_item"
+    android:clickable="false"
+    android:drawablePadding="3.0dip"
+    android:gravity="center_horizontal"
+    android:padding="4.0dip"
+    android:textColor="@color/popup_menu_text"
+    android:textSize="16.0sp" />

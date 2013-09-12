@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3F3F3">
+              
+    <WebView
+        android:id="@+id/webview" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"/>
+    
+  
+        
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/appwall_actionbar_right"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+        
+        <LinearLayout 
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+         <EditText
+            android:id="@+id/ecjtu_news_comment_edit" 
+            android:layout_height="wrap_content"
+        	android:layout_width="fill_parent"
+        	android:inputType="text"
+        	android:layout_weight="1"
+        	android:hint="说说你的看法"
+        	android:background="@drawable/comment_box"
+        	android:textSize="13sp"
+        	android:layout_marginLeft="5dp"
+        	android:layout_marginRight="5dp"
+        	android:paddingLeft="5dp"/>
+        <Button
+            android:id="@+id/ecjtu_news_comment_btn" 
+            android:layout_height="wrap_content"
+        	android:layout_width="fill_parent"
+        	android:layout_weight="5"
+        	android:background="@drawable/btn_style_one_selector"
+        	android:layout_marginRight="5dp"/>            
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/ecjtu_news_comment_layout" 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+           <CheckBox
+               android:id="@+id/ecjtu_news_comment_checkbox"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:button="@drawable/checkbox_style"
+               android:checked="true"
+               android:textSize="13sp"
+               android:layout_marginLeft="10dp"/> 
+               
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="同步到朋友圈"
+               android:layout_toRightOf="@+id/ecjtu_news_comment_checkbox"
+               android:layout_centerVertical="true"
+               android:layout_marginLeft="-13dp"/>
+               
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/ecjtu_news_comment_tip"
+               android:textColor="#BABABA"
+               android:textSize="13sp"
+               android:layout_alignParentRight="true"
+               android:layout_centerVertical="true"
+               android:layout_marginRight="10dp"/>
+        
+        </RelativeLayout>
+      	
+        
+    </LinearLayout>
+    
+
+</RelativeLayout>

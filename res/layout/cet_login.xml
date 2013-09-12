@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+
+    <EditText
+        android:id="@+id/cet_edit_id"
+        android:layout_width="300dp"
+	    android:layout_height="45dp"
+        android:inputType="number"
+        android:layout_marginTop="25dp"
+	    android:layout_marginLeft="5dp"
+        android:background="@drawable/score_edit_border_selector"
+        android:textColor="#aaaaaa"
+	    android:textSize="15sp"
+	    android:hint="@string/cet_edit_id_hint" />
+    
+    <EditText
+        android:id="@+id/cet_edit_name"
+        android:layout_width="300dp"
+	    android:layout_height="45dp"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+	    android:layout_marginLeft="5dp"
+        android:background="@drawable/score_edit_border_selector"
+        android:textColor="#aaaaaa"
+	    android:textSize="15sp"
+	    android:hint="@string/cet_edit_name_hint" />
+    
+  
+    
+    <Button
+        android:id="@+id/cet_login_btn"
+        android:layout_width="300dp"
+	    android:layout_height="40dp"
+        android:text="@string/cet_login_btn"
+        android:background="@drawable/score_btn_selector"
+	    android:layout_marginTop="30dp"
+	    android:layout_marginLeft="5dp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

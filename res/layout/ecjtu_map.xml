@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.tencent.mapapi.map.MapView
+        android:id="@+id/ecjtu_map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="ffd045196eea7f1c20963e4690d6d84e" />
+
+</LinearLayout>

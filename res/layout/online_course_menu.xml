@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E5E6ED" >
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:background="@drawable/login_edit_normal">
+        <TextView
+            android:id="@+id/online_course_menu_info_name"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="姓名：彭炜"
+	        android:textColor="#6D6D6D" />
+        <TextView
+            android:id="@+id/online_course_menu_info_class"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="班级：软件工程2011-5"
+	        android:textColor="#6D6D6D"/>
+        <TextView
+            android:id="@+id/online_course_menu_info_id"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="在班编号：20112110010521"
+	        android:textColor="#6D6D6D"/>
+        <TextView
+            android:id="@+id/online_course_menu_info_limit"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="可以选修的课程数目：2"
+	        android:textColor="#6D6D6D" />       
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        
+        <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="在线选修"
+        android:background="@drawable/btn_style_four_selector"/>
+    
+	    <Button
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp"
+	        android:text="退修"
+	        android:background="@drawable/btn_style_four_selector"
+	        android:layout_marginTop="20dp"/>
+    
+	    <Button
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp"
+	        android:text="我的选修课"
+	        android:background="@drawable/btn_style_four_selector"
+	        android:layout_marginTop="20dp"/>
+        
+    </LinearLayout>
+    
+    
+    
+    
+
+</LinearLayout>

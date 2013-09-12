@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+    
+    
+    <TextView
+        android:id="@+id/resource_uoload_file_tip"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="50dp" 
+		android:layout_marginLeft="10dp"
+    	android:layout_marginRight="10dp"/>
+    
+    
+    <EditText
+        android:id="@+id/resource_uoload_file_name"
+        android:layout_width="fill_parent"
+    	android:layout_height="50dp"
+    	android:background="@drawable/score_edit_border_selector"
+    	android:inputType="text"
+    	android:layout_marginLeft="10dp"
+    	android:layout_marginRight="10dp"/>
+    
+    
+    <Button
+        android:id="@+id/resource_uoload_select_file"
+        android:layout_width="fill_parent"
+    	android:layout_height="40dp"
+    	android:layout_marginLeft="10dp"
+    	android:layout_marginRight="10dp"
+    	android:layout_marginTop="20dp"
+    	android:text="@string/resource_uoload_select_file"
+    	android:textColor="#ffffff"
+    	android:textSize="13sp"
+    	android:background="@drawable/score_btn_selector"/>
+    
+     
+     <Button
+        android:id="@+id/resource_uoload_btn"
+        android:layout_width="fill_parent"
+    	android:layout_height="40dp"
+    	android:layout_marginLeft="10dp"
+    	android:layout_marginRight="10dp"
+    	android:text="@string/resource_uoload_upload_file"
+    	android:textSize="13sp"
+    	android:background="@drawable/score_btn_selector"
+    	android:textColor="#ffffff"
+    	android:layout_marginTop="20dp"/>  
+
+</LinearLayout>

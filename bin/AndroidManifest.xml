@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.index.schoolkonw"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_SINTERNETWIFI_STATE" />  
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/ContentOverlay" >
+        <activity
+            android:name="com.schoolkonw.app.welcome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.schoolkonw.app.MainActivity"
+            android:theme="@style/ContentOverlay">
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.get_score"
+           android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.score_data"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+         <activity
+            android:name="com.schoolkonw.app.library_login"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.library_data"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.cet_login"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.cet_data"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.schedule"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.ecjtuMap"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.ecjtuStreeMap"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.resource_sharing"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.resource_upload"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+         <activity
+            android:name="com.schoolkonw.app.FileManagerActivity"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.exam_arrange"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.exam_arrange_content"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.online_course_login"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+         <activity
+            android:name="com.schoolkonw.app.online_course_reg"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.online_course_menu"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.ecjtu_news"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+         <activity
+            android:name="com.schoolkonw.app.FindPerson"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.FindPerson_content"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.market"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.market_bookstore"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.login"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.ecjtu_news_content"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.Cinema"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+        <activity
+            android:name="com.schoolkonw.app.schedule_manage"
+            android:theme="@style/ContentOverlay" >
+        </activity>
+    </application>
+
+</manifest>

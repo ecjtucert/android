@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/white" >
+   
+    <EditText
+        android:id="@+id/search_score_edit"
+        android:layout_width="300dp"
+	    android:layout_height="45dp"
+        android:inputType="number"
+        android:layout_marginTop="25dp"
+	    android:layout_marginLeft="5dp"
+        android:background="@drawable/score_edit_border_selector"
+        android:textColor="#aaaaaa"
+	    android:textSize="15sp"
+	    android:hint="@string/search_score_edit_hint" />
+    
+    <Button
+        android:id="@+id/search_score_btn"
+        android:layout_width="300dp"
+	    android:layout_height="40dp"
+        android:text="@string/search_score_btn"
+        android:background="@drawable/score_btn_selector"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="5dp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/qz_bg_container_cell_normal"
+    android:padding="10dp">
+    
+    <TextView
+        android:id="@+id/schedule_manage_listview_item_className" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#A7C93E"
+        android:layout_marginLeft="10dp"/>
+    
+    <TextView
+        android:id="@+id/schedule_manage_listview_item_term"  
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#A7C93E"
+        android:layout_marginLeft="10dp"/>
+    
+    <TextView
+        android:id="@+id/schedule_manage_listview_item_classid"  
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#A7C93E"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"/>
+</LinearLayout>

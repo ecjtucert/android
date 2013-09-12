@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/qz_bitmap_login" >
+    
+ 
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/qz_bg_container_cell_normal"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="30dp">
+        
+        <Spinner
+	        android:id="@+id/exam_arrange_term_select"
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp"
+	        android:background="@null"
+	        android:layout_marginLeft="10dp"/>
+        
+        <ImageView
+            android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/qz_icon_navbar_drop_down" 
+	    	android:contentDescription="@string/app_name"
+	    	android:layout_alignParentRight="true"
+	    	android:layout_centerVertical="true"
+	    	android:layout_marginRight="5dp"/>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/qz_bg_container_cell_normal"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="5dp">
+        
+        <Spinner
+	        android:id="@+id/exam_arrange_college_select"
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp"
+	        android:background="@null"
+	        android:layout_marginLeft="10dp"/>
+        
+	        
+        
+        <ImageView
+            android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/qz_icon_navbar_drop_down" 
+	    	android:contentDescription="@string/app_name"
+	    	android:layout_alignParentRight="true"
+	    	android:layout_centerVertical="true"
+	    	android:layout_marginRight="5dp"/>
+        
+    </RelativeLayout>
+      
+    <Button
+        android:id="@+id/exam_arrange_btn"
+        android:layout_width="fill_parent"
+	    android:layout_height="40dp"
+        android:text="@string/immediately_search"
+        android:background="@drawable/qz_selector_login"
+	    android:layout_marginTop="30dp"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

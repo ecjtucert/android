@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E5E6ED" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+        
+        <EditText
+            android:id="@+id/online_course_login_uid"
+            android:layout_width="fill_parent"
+        	android:layout_height="40dp" 
+        	android:inputType="number"
+        	android:hint="请输入你的学号"
+        	android:background="@drawable/online_course_login_edit_border"
+        	android:textSize="13sp"
+        	android:paddingLeft="10dp"/>
+        
+        <EditText
+            android:id="@+id/online_course_login_pwd"
+            android:layout_width="fill_parent"
+        	android:layout_height="40dp" 
+        	android:inputType="text"
+        	android:hint="请输入你的密码"
+        	android:password="true"
+        	android:background="@drawable/online_course_login_edit_border"
+        	android:textSize="13sp"
+        	android:paddingLeft="10dp"
+        	android:layout_marginTop="12dp"/>
+        
+        
+        <Button
+            android:id="@+id/online_course_login_loginbtn"
+            android:layout_width="fill_parent"
+        	android:layout_height="40dp"
+        	android:text="登录"
+        	android:layout_marginTop="25dp"
+        	android:textColor="#ffffff"
+        	android:background="@drawable/online_course_login_btn"/>
+        
+        
+        <TextView
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" 
+        	android:text="如果你没有网上选课账号，请先注册" 
+        	android:layout_marginTop="50dp"
+        	android:gravity="center_horizontal"
+        	android:textColor="#159C82"
+            />
+        
+        <Button
+            android:id="@+id/online_course_login_regbtn"
+            android:layout_width="fill_parent"
+        	android:layout_height="40dp"
+        	android:text="注册"
+        	android:textColor="#ffffff"
+        	android:background="@drawable/online_course_login_btn"
+        	android:layout_marginTop="5dp"  />
+        
+    </LinearLayout>
+    
+
+</LinearLayout>
